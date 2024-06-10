@@ -1,0 +1,439 @@
+{
+    "product": "AuthGuard (API)",
+    "roadmapItems": [
+      {
+        "title": "Release 1.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-03-01T00:00:00Z",
+        "endDate": "2023-03-02T00:00:00Z",
+        "style": "blue",
+        "source": "Internal",
+        "product": "AuthGuard (API)",
+        "description": "Initial release with key features and bug fixes.",
+        "children": [
+          {
+            "title": "OAuth2 Integration",
+            "subType": "Feature",
+            "description": "Integrating OAuth2 for enhanced authentication.",
+            "children": [
+              {
+                "title": "Resolved token expiration issues.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues causing premature token expiration."
+              },
+              {
+                "title": "Fixed client credential grant flow bugs.",
+                "subType": "Bug Fix",
+                "description": "Resolved bugs affecting the client credential grant flow."
+              },
+              {
+                "title": "Added support for custom scopes.",
+                "subType": "Enhancement",
+                "description": "Introduced support for defining custom OAuth2 scopes."
+              },
+              {
+                "title": "Improved OAuth2 token introspection endpoint.",
+                "subType": "Enhancement",
+                "description": "Enhanced the token introspection endpoint for better functionality."
+              }
+            ]
+          },
+          {
+            "title": "JWT Enhancements",
+            "subType": "Feature",
+            "description": "Improving JWT support and handling.",
+            "children": [
+              {
+                "title": "Corrected JWT signature verification errors.",
+                "subType": "Bug Fix",
+                "description": "Fixed errors in verifying JWT signatures."
+              },
+              {
+                "title": "Introduced support for custom JWT claims.",
+                "subType": "Enhancement",
+                "description": "Added the ability to define custom claims in JWTs."
+              },
+              {
+                "title": "Improved JWT expiration handling.",
+                "subType": "Enhancement",
+                "description": "Enhanced the handling of JWT expiration for better security."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 1.2.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-08-01T00:00:00Z",
+        "endDate": "2023-08-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "AuthGuard (API)",
+        "description": "Introducing multi-factor authentication and improved user role management.",
+        "children": [
+          {
+            "title": "Multi-Factor Authentication (MFA)",
+            "subType": "Feature",
+            "description": "Enhancing security with multi-factor authentication options.",
+            "children": [
+              {
+                "title": "Fixed bugs in MFA setup flow.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues encountered during MFA setup."
+              },
+              {
+                "title": "Resolved issues with SMS-based MFA.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting SMS-based multi-factor authentication."
+              },
+              {
+                "title": "Added support for TOTP (Time-based One-Time Password).",
+                "subType": "Enhancement",
+                "description": "Introduced support for TOTP in MFA."
+              },
+              {
+                "title": "Introduced push notification-based MFA.",
+                "subType": "Enhancement",
+                "description": "Added push notification support for multi-factor authentication."
+              }
+            ]
+          },
+          {
+            "title": "User Role Management",
+            "subType": "Feature",
+            "description": "Improving the management of user roles and permissions.",
+            "children": [
+              {
+                "title": "Corrected issues with role assignment.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs in assigning roles to users."
+              },
+              {
+                "title": "Fixed bugs in role-based access control (RBAC) logic.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues in the RBAC logic."
+              },
+              {
+                "title": "Added granular role permissions.",
+                "subType": "Enhancement",
+                "description": "Introduced more detailed permissions for user roles."
+              },
+              {
+                "title": "Implemented role hierarchy for nested permissions.",
+                "subType": "Enhancement",
+                "description": "Added support for hierarchical roles and nested permissions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-02-01T00:00:00Z",
+        "endDate": "2024-02-02T00:00:00Z",
+        "style": "red",
+        "source": "Internal",
+        "product": "AuthGuard (API)",
+        "description": "Major update focusing on enhanced security protocols and API rate limiting.",
+        "children": [
+          {
+            "title": "Enhanced Security Protocols",
+            "subType": "Feature",
+            "description": "Implementing new security protocols for better protection.",
+            "children": [
+              {
+                "title": "Resolved vulnerabilities in token storage.",
+                "subType": "Bug Fix",
+                "description": "Fixed security vulnerabilities in the storage of tokens."
+              },
+              {
+                "title": "Fixed issues with secure cookie handling.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with handling secure cookies."
+              },
+              {
+                "title": "Implemented HSTS (HTTP Strict Transport Security).",
+                "subType": "Enhancement",
+                "description": "Added HSTS to enhance HTTP security."
+              },
+              {
+                "title": "Added support for Content Security Policy (CSP).",
+                "subType": "Enhancement",
+                "description": "Introduced CSP to prevent cross-site scripting and other attacks."
+              }
+            ]
+          },
+          {
+            "title": "API Rate Limiting",
+            "subType": "Feature",
+            "description": "Enhancing API security with rate limiting features.",
+            "children": [
+              {
+                "title": "Corrected rate limiting algorithm errors.",
+                "subType": "Bug Fix",
+                "description": "Fixed errors in the rate limiting algorithms."
+              },
+              {
+                "title": "Introduced IP-based rate limiting.",
+                "subType": "Enhancement",
+                "description": "Added support for rate limiting based on IP addresses."
+              },
+              {
+                "title": "Added customizable rate limiting policies.",
+                "subType": "Enhancement",
+                "description": "Implemented policies allowing customization of rate limiting rules."
+              }
+            ]
+          },
+          {
+            "title": "Audit Logging",
+            "subType": "Feature",
+            "description": "Introducing detailed audit logging for authentication events.",
+            "children": [
+              {
+                "title": "Fixed bugs in log generation.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with generating accurate audit logs."
+              },
+              {
+                "title": "Implemented detailed audit logs for authentication events.",
+                "subType": "Enhancement",
+                "description": "Introduced comprehensive logging of authentication-related events."
+              },
+              {
+                "title": "Added support for log export in various formats.",
+                "subType": "Enhancement",
+                "description": "Provided options to export logs in multiple formats for better analysis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-10-01T00:00:00Z",
+        "endDate": "2024-10-02T00:00:00Z",
+        "style": "purple",
+        "source": "Internal",
+        "product": "AuthGuard (API)",
+        "description": "Release enhancing OAuth2, JWT features, and MFA improvements.",
+        "children": [
+          {
+            "title": "OAuth2 Enhancements",
+            "subType": "Feature",
+            "description": "Improving OAuth2 functionality with new features and fixes.",
+            "children": [
+              {
+                "title": "Resolved issues with token refresh flow.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs affecting the OAuth2 token refresh flow."
+              },
+              {
+                "title": "Added support for PKCE (Proof Key for Code Exchange).",
+                "subType": "Enhancement",
+                "description": "Introduced PKCE support for enhanced OAuth2 security."
+              },
+              {
+                "title": "Improved error handling and reporting in OAuth2 flows.",
+                "subType": "Enhancement",
+                "description": "Enhanced the error handling and reporting mechanisms in OAuth2."
+              }
+            ]
+          },
+          {
+            "title": "Advanced JWT Features",
+            "subType": "Feature",
+            "description": "Adding advanced features to JWT handling and support.",
+            "children": [
+              {
+                "title": "Fixed bugs in JWT blacklisting.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the blacklisting of JWTs."
+              },
+              {
+                "title": "Added support for JWT revocation.",
+                "subType": "Enhancement",
+                "description": "Introduced the ability to revoke JWTs for better security."
+              },
+              {
+                "title": "Implemented advanced JWT audience restrictions.",
+                "subType": "Enhancement",
+                "description": "Added advanced audience restrictions to improve JWT security."
+              }
+            ]
+          },
+          {
+            "title": "MFA Improvements",
+            "subType": "Feature",
+            "description": "Enhancing multi-factor authentication with new options and fixes.",
+            "children": [
+              {
+                "title": "Corrected issues with backup MFA methods.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs affecting backup methods for MFA."
+              },
+              {
+                "title": "Added biometric authentication support.",
+                "subType": "Enhancement",
+                "description": "Introduced support for biometric methods in MFA."
+              },
+              {
+                "title": "Improved user interface for MFA setup.",
+                "subType": "Enhancement",
+                "description": "Enhanced the user interface for setting up multi-factor authentication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-05-01T00:00:00Z",
+        "endDate": "2025-05-02T00:00:00Z",
+        "style": "orange",
+        "source": "Internal",
+        "product": "AuthGuard (API)",
+        "description": "Major release introducing federated identity support and user session management.",
+        "children": [
+          {
+            "title": "Federated Identity Support",
+            "subType": "Feature",
+            "description": "Supporting federated identities with new authentication protocols.",
+            "children": [
+              {
+                "title": "Fixed bugs in identity provider integration.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with integrating various identity providers."
+              },
+              {
+                "title": "Added support for SAML-based authentication.",
+                "subType": "Enhancement",
+                "description": "Introduced support for authentication using SAML."
+              },
+              {
+                "title": "Implemented support for OpenID Connect.",
+                "subType": "Enhancement",
+                "description": "Added support for authentication using OpenID Connect."
+              }
+            ]
+          },
+          {
+            "title": "User Session Management",
+            "subType": "Feature",
+            "description": "Improving management of user sessions for better control and security.",
+            "children": [
+              {
+                "title": "Resolved issues with session persistence.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs affecting the persistence of user sessions."
+              },
+              {
+                "title": "Introduced session timeout and expiration policies.",
+                "subType": "Enhancement",
+                "description": "Added policies for session timeouts and expiration to enhance security."
+              },
+              {
+                "title": "Added real-time session monitoring and termination.",
+                "subType": "Enhancement",
+                "description": "Introduced real-time monitoring and the ability to terminate sessions."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced MFA Options",
+            "subType": "Feature",
+            "description": "Adding new options and improving the functionality of multi-factor authentication.",
+            "children": [
+              {
+                "title": "Corrected issues with MFA recovery.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs affecting the recovery process for MFA."
+              },
+              {
+                "title": "Added support for hardware security keys (FIDO2).",
+                "subType": "Enhancement",
+                "description": "Introduced support for hardware security keys using FIDO2."
+              },
+              {
+                "title": "Improved MFA fallback options and user experience.",
+                "subType": "Enhancement",
+                "description": "Enhanced the fallback options and overall user experience for MFA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.2.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-12-01T00:00:00Z",
+        "endDate": "2025-12-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "AuthGuard (API)",
+        "description": "Focus on API performance optimization and customizable authorization policies.",
+        "children": [
+          {
+            "title": "API Performance Optimization",
+            "subType": "Feature",
+            "description": "Optimizing API performance for better efficiency and speed.",
+            "children": [
+              {
+                "title": "Fixed latency issues in authentication endpoints.",
+                "subType": "Bug Fix",
+                "description": "Resolved latency issues affecting the authentication endpoints."
+              },
+              {
+                "title": "Resolved performance bottlenecks in token generation.",
+                "subType": "Bug Fix",
+                "description": "Fixed performance bottlenecks occurring during token generation."
+              },
+              {
+                "title": "Implemented caching mechanisms for frequent requests.",
+                "subType": "Enhancement",
+                "description": "Introduced caching to improve response times for frequent API requests."
+              },
+              {
+                "title": "Improved database query efficiency for user data.",
+                "subType": "Enhancement",
+                "description": "Optimized database queries to enhance the efficiency of accessing user data."
+              }
+            ]
+          },
+          {
+            "title": "Customizable Authorization Policies",
+            "subType": "Feature",
+            "description": "Enhancing authorization with customizable policies.",
+            "children": [
+              {
+                "title": "Corrected errors in policy enforcement.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues in enforcing authorization policies correctly."
+              },
+              {
+                "title": "Introduced attribute-based access control (ABAC).",
+                "subType": "Enhancement",
+                "description": "Added support for ABAC to allow more granular access control."
+              },
+              {
+                "title": "Added support for dynamic policy updates.",
+                "subType": "Enhancement",
+                "description": "Introduced the ability to update authorization policies dynamically."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

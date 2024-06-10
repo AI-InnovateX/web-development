@@ -1,0 +1,356 @@
+{
+    "product": "SiteBuilder (Web Application)",
+    "roadmapItems": [
+      {
+        "title": "Release 1.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-01-01T00:00:00Z",
+        "endDate": "2023-01-02T00:00:00Z",
+        "style": "blue",
+        "source": "Internal",
+        "product": "SiteBuilder (Web Application)",
+        "description": "Initial release with major feature expansions and bug fixes.",
+        "children": [
+          {
+            "title": "Template Expansion",
+            "subType": "Feature",
+            "description": "Expanding the template library with new and improved options.",
+            "children": [
+              {
+                "title": "Resolved issues with template loading times.",
+                "subType": "Bug Fix",
+                "description": "Fixed loading time issues for templates to ensure faster access."
+              },
+              {
+                "title": "Added 10 new responsive templates to the template library.",
+                "subType": "Enhancement",
+                "description": "Introduced 10 new responsive templates to enhance user design options."
+              }
+            ]
+          },
+          {
+            "title": "SEO Booster",
+            "subType": "Feature",
+            "description": "Enhancing SEO capabilities to improve website visibility.",
+            "children": [
+              {
+                "title": "Fixed meta tag generation errors.",
+                "subType": "Bug Fix",
+                "description": "Corrected errors in the generation of meta tags for better SEO."
+              },
+              {
+                "title": "Improved keyword analysis tool for better SEO suggestions.",
+                "subType": "Enhancement",
+                "description": "Enhanced the keyword analysis tool to provide better SEO suggestions."
+              }
+            ]
+          },
+          {
+            "title": "E-commerce Integration",
+            "subType": "Feature",
+            "description": "Integrating advanced e-commerce features for better functionality.",
+            "children": [
+              {
+                "title": "Corrected checkout process glitches.",
+                "subType": "Bug Fix",
+                "description": "Fixed glitches in the checkout process to ensure smooth transactions."
+              },
+              {
+                "title": "Added support for multiple payment gateways.",
+                "subType": "Enhancement",
+                "description": "Introduced support for multiple payment gateways to expand e-commerce options."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 1.2.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-07-01T00:00:00Z",
+        "endDate": "2023-07-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "SiteBuilder (Web Application)",
+        "description": "Release focused on template customization and performance optimization.",
+        "children": [
+          {
+            "title": "Template Customizer",
+            "subType": "Feature",
+            "description": "New customization options for templates to enhance user control.",
+            "children": [
+              {
+                "title": "Addressed bugs in the drag-and-drop editor.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs in the drag-and-drop editor to improve functionality."
+              },
+              {
+                "title": "Introduced new customization options for templates.",
+                "subType": "Enhancement",
+                "description": "Added new options to customize templates more effectively."
+              }
+            ]
+          },
+          {
+            "title": "Performance Optimization",
+            "subType": "Feature",
+            "description": "Optimizing performance for high-traffic websites.",
+            "children": [
+              {
+                "title": "Fixed slow loading times for high-traffic websites.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues causing slow loading times on busy websites."
+              },
+              {
+                "title": "Enhanced website speed and performance with new caching mechanisms.",
+                "subType": "Enhancement",
+                "description": "Improved site speed with advanced caching techniques for better performance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-01-01T00:00:00Z",
+        "endDate": "2024-01-02T00:00:00Z",
+        "style": "red",
+        "source": "Internal",
+        "product": "SiteBuilder (Web Application)",
+        "description": "Major update introducing mobile optimization and advanced analytics.",
+        "children": [
+          {
+            "title": "Mobile Optimization",
+            "subType": "Feature",
+            "description": "Optimizing site layouts and performance for mobile devices.",
+            "children": [
+              {
+                "title": "Resolved layout issues on mobile devices.",
+                "subType": "Bug Fix",
+                "description": "Fixed layout problems affecting mobile device users."
+              },
+              {
+                "title": "Introduced mobile-specific design options and optimizations.",
+                "subType": "Enhancement",
+                "description": "Added design options and optimizations specifically for mobile use."
+              }
+            ]
+          },
+          {
+            "title": "Advanced Analytics",
+            "subType": "Feature",
+            "description": "Providing detailed insights into website traffic and user behavior.",
+            "children": [
+              {
+                "title": "Fixed data discrepancies in analytics reports.",
+                "subType": "Bug Fix",
+                "description": "Corrected issues causing inaccuracies in analytics reports."
+              },
+              {
+                "title": "Added detailed traffic analysis and user behavior tracking.",
+                "subType": "Enhancement",
+                "description": "Introduced advanced features for analyzing traffic and tracking user behavior."
+              }
+            ]
+          },
+          {
+            "title": "User Management",
+            "subType": "Feature",
+            "description": "Enhanced management and permissions for website users.",
+            "children": [
+              {
+                "title": "Corrected issues with user role assignments.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems related to assigning roles to users."
+              },
+              {
+                "title": "Implemented advanced user role management and permissions.",
+                "subType": "Enhancement",
+                "description": "Added advanced features for managing user roles and permissions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-09-01T00:00:00Z",
+        "endDate": "2024-09-02T00:00:00Z",
+        "style": "purple",
+        "source": "Internal",
+        "product": "SiteBuilder (Web Application)",
+        "description": "Focused release on multilingual support and SEO enhancements.",
+        "children": [
+          {
+            "title": "Multilingual Support",
+            "subType": "Feature",
+            "description": "Supporting multiple languages to reach a global audience.",
+            "children": [
+              {
+                "title": "Fixed language selection issues.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems users faced when selecting languages."
+              },
+              {
+                "title": "Added support for 10 new languages.",
+                "subType": "Enhancement",
+                "description": "Introduced support for 10 additional languages to the platform."
+              }
+            ]
+          },
+          {
+            "title": "SEO Enhancements",
+            "subType": "Feature",
+            "description": "Improving SEO tools to enhance website visibility and performance.",
+            "children": [
+              {
+                "title": "Corrected sitemap generation errors.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues in generating accurate sitemaps for better SEO."
+              },
+              {
+                "title": "Improved backlink analysis tool for better SEO tracking.",
+                "subType": "Enhancement",
+                "description": "Enhanced the backlink analysis tool to provide more accurate SEO tracking."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-03-01T00:00:00Z",
+        "endDate": "2025-03-02T00:00:00Z",
+        "style": "orange",
+        "source": "Internal",
+        "product": "SiteBuilder (Web Application)",
+        "description": "Major release featuring AI content generation and enhanced security.",
+        "children": [
+          {
+            "title": "AI Content Generator",
+            "subType": "Feature",
+            "description": "Introducing an AI-powered tool for generating high-quality website content.",
+            "children": [
+              {
+                "title": "Resolved issues with content formatting.",
+                "subType": "Bug Fix",
+                "description": "Fixed formatting issues in AI-generated content."
+              },
+              {
+                "title": "Introduced an AI-powered tool for generating website content.",
+                "subType": "Enhancement",
+                "description": "Added an AI tool to help users create engaging website content."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced Security",
+            "subType": "Feature",
+            "description": "Implementing advanced security features to protect user data.",
+            "children": [
+              {
+                "title": "Fixed vulnerabilities in user authentication.",
+                "subType": "Bug Fix",
+                "description": "Resolved security issues found in user authentication processes."
+              },
+              {
+                "title": "Added two-factor authentication and advanced security features.",
+                "subType": "Enhancement",
+                "description": "Introduced two-factor authentication and other security improvements."
+              }
+            ]
+          },
+          {
+            "title": "Custom Widgets",
+            "subType": "Feature",
+            "description": "Enhancing functionality with customizable widgets.",
+            "children": [
+              {
+                "title": "Addressed bugs in widget integration.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs affecting the integration of widgets."
+              },
+              {
+                "title": "Introduced customizable widgets for various functionalities.",
+                "subType": "Enhancement",
+                "description": "Added new customizable widgets to enhance website functionality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.2.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-08-01T00:00:00Z",
+        "endDate": "2025-08-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "SiteBuilder (Web Application)",
+        "description": "Focused on e-commerce analytics, template marketplace, and site migration.",
+        "children": [
+          {
+            "title": "E-commerce Analytics",
+            "subType": "Feature",
+            "description": "Providing detailed analytics for e-commerce performance tracking.",
+            "children": [
+              {
+                "title": "Resolved issues with sales data tracking.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs that were causing inaccuracies in sales data tracking."
+              },
+              {
+                "title": "Added detailed sales and customer behavior analytics.",
+                "subType": "Enhancement",
+                "description": "Introduced detailed analytics for better understanding of sales and customer behavior."
+              }
+            ]
+          },
+          {
+            "title": "Template Marketplace",
+            "subType": "Feature",
+            "description": "Launching a marketplace for third-party templates and plugins.",
+            "children": [
+              {
+                "title": "Fixed bugs in template purchase process.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the purchase of templates from the marketplace."
+              },
+              {
+                "title": "Launched a marketplace for third-party templates and plugins.",
+                "subType": "Enhancement",
+                "description": "Introduced a new marketplace for third-party templates and plugins."
+              }
+            ]
+          },
+          {
+            "title": "Site Migration Tool",
+            "subType": "Feature",
+            "description": "Introducing an easy-to-use tool for migrating websites from other platforms.",
+            "children": [
+              {
+                "title": "Corrected errors in the site migration process.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues causing errors during the site migration process."
+              },
+              {
+                "title": "Introduced an easy-to-use tool for migrating websites from other platforms.",
+                "subType": "Enhancement",
+                "description": "Added a tool to simplify the process of migrating sites from other platforms."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

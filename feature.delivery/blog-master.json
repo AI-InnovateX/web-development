@@ -1,0 +1,481 @@
+{
+    "product": "BlogMaster (Web Application)",
+    "roadmapItems": [
+      {
+        "title": "Release 1.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-02-01T00:00:00Z",
+        "endDate": "2023-02-02T00:00:00Z",
+        "style": "blue",
+        "source": "Internal",
+        "product": "BlogMaster (Web Application)",
+        "description": "Initial release with key features and bug fixes.",
+        "children": [
+          {
+            "title": "Rich Text Editor",
+            "subType": "Feature",
+            "description": "Providing an advanced rich text editor for content creation.",
+            "children": [
+              {
+                "title": "Resolved formatting issues with bullet points.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with bullet point formatting in the editor."
+              },
+              {
+                "title": "Fixed image alignment bugs.",
+                "subType": "Bug Fix",
+                "description": "Corrected alignment issues with images in the editor."
+              },
+              {
+                "title": "Added support for advanced text formatting options.",
+                "subType": "Enhancement",
+                "description": "Introduced new formatting options for rich text editing."
+              },
+              {
+                "title": "Introduced drag-and-drop image embedding.",
+                "subType": "Enhancement",
+                "description": "Added drag-and-drop functionality for easier image embedding."
+              }
+            ]
+          },
+          {
+            "title": "Multimedia Support",
+            "subType": "Feature",
+            "description": "Enhancing support for multimedia content.",
+            "children": [
+              {
+                "title": "Corrected video playback issues.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs affecting video playback in posts."
+              },
+              {
+                "title": "Fixed bugs in audio file uploads.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with uploading audio files."
+              },
+              {
+                "title": "Added support for embedding YouTube and Vimeo videos.",
+                "subType": "Enhancement",
+                "description": "Introduced embedding support for YouTube and Vimeo videos."
+              },
+              {
+                "title": "Implemented an integrated media library for easy access.",
+                "subType": "Enhancement",
+                "description": "Added a media library for easier management of multimedia files."
+              }
+            ]
+          },
+          {
+            "title": "Social Media Integration",
+            "subType": "Feature",
+            "description": "Improving social media integration for better sharing and interaction.",
+            "children": [
+              {
+                "title": "Resolved issues with social media sharing links.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with links for sharing posts on social media."
+              },
+              {
+                "title": "Added automatic post scheduling for social media platforms.",
+                "subType": "Enhancement",
+                "description": "Introduced scheduling features for social media posts."
+              },
+              {
+                "title": "Improved social media post preview functionality.",
+                "subType": "Enhancement",
+                "description": "Enhanced the preview function for social media posts."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 1.2.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-07-01T00:00:00Z",
+        "endDate": "2023-07-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "BlogMaster (Web Application)",
+        "description": "Enhancements to user comments and SEO tools.",
+        "children": [
+          {
+            "title": "User Comments",
+            "subType": "Feature",
+            "description": "Improving user comment functionality and moderation.",
+            "children": [
+              {
+                "title": "Fixed issues with comment moderation.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with moderating user comments."
+              },
+              {
+                "title": "Resolved duplicate comment submission bugs.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues causing duplicate comments to be submitted."
+              },
+              {
+                "title": "Added support for threaded comments.",
+                "subType": "Enhancement",
+                "description": "Introduced threaded comment support for better discussions."
+              },
+              {
+                "title": "Introduced upvote and downvote features for comments.",
+                "subType": "Enhancement",
+                "description": "Added features to upvote and downvote comments for better interaction."
+              }
+            ]
+          },
+          {
+            "title": "SEO Tools",
+            "subType": "Feature",
+            "description": "Enhancing SEO tools for better website optimization.",
+            "children": [
+              {
+                "title": "Corrected meta tag generation errors.",
+                "subType": "Bug Fix",
+                "description": "Fixed errors in the generation of meta tags for SEO."
+              },
+              {
+                "title": "Added real-time SEO analysis and suggestions.",
+                "subType": "Enhancement",
+                "description": "Introduced tools for real-time SEO analysis and suggestions."
+              },
+              {
+                "title": "Implemented automated sitemap generation.",
+                "subType": "Enhancement",
+                "description": "Added features for automatic generation of sitemaps."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-01-01T00:00:00Z",
+        "endDate": "2024-01-02T00:00:00Z",
+        "style": "red",
+        "source": "Internal",
+        "product": "BlogMaster (Web Application)",
+        "description": "Major update with theme customization and analytics integration.",
+        "children": [
+          {
+            "title": "Theme Customization",
+            "subType": "Feature",
+            "description": "Providing advanced theme customization options.",
+            "children": [
+              {
+                "title": "Resolved bugs with theme switching.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues encountered when switching themes."
+              },
+              {
+                "title": "Fixed issues with theme color customizations.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with customizing theme colors."
+              },
+              {
+                "title": "Added a variety of new themes.",
+                "subType": "Enhancement",
+                "description": "Introduced a range of new themes for better customization."
+              },
+              {
+                "title": "Implemented advanced theme customization options.",
+                "subType": "Enhancement",
+                "description": "Added advanced options for customizing themes in detail."
+              }
+            ]
+          },
+          {
+            "title": "Analytics Integration",
+            "subType": "Feature",
+            "description": "Integrating advanced analytics tools for better insights.",
+            "children": [
+              {
+                "title": "Fixed data discrepancies in traffic reports.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues causing discrepancies in traffic analytics."
+              },
+              {
+                "title": "Added support for Google Analytics integration.",
+                "subType": "Enhancement",
+                "description": "Introduced integration with Google Analytics for better data."
+              },
+              {
+                "title": "Introduced detailed readership statistics and reporting.",
+                "subType": "Enhancement",
+                "description": "Added features for detailed readership analysis and reporting."
+              }
+            ]
+          },
+          {
+            "title": "Content Scheduling",
+            "subType": "Feature",
+            "description": "Enhancing content scheduling capabilities for better planning.",
+            "children": [
+              {
+                "title": "Resolved issues with scheduled post publishing.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the publishing of scheduled posts."
+              },
+              {
+                "title": "Added calendar view for content scheduling.",
+                "subType": "Enhancement",
+                "description": "Introduced a calendar view to help with scheduling content."
+              },
+              {
+                "title": "Implemented automated post scheduling with reminders.",
+                "subType": "Enhancement",
+                "description": "Added features for automated scheduling and reminder notifications."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-09-01T00:00:00Z",
+        "endDate": "2024-09-02T00:00:00Z",
+        "style": "purple",
+        "source": "Internal",
+        "product": "BlogMaster (Web Application)",
+        "description": "Focused on enhancing the media library and editor features.",
+        "children": [
+          {
+            "title": "Enhanced Media Library",
+            "subType": "Feature",
+            "description": "Improving the media library for better file management.",
+            "children": [
+              {
+                "title": "Fixed bugs in media file organization.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the organization of media files."
+              },
+              {
+                "title": "Resolved issues with media file search.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems encountered during media file searches."
+              },
+              {
+                "title": "Introduced categorization and tagging for media files.",
+                "subType": "Enhancement",
+                "description": "Added features for categorizing and tagging media files."
+              },
+              {
+                "title": "Added bulk upload and management features.",
+                "subType": "Enhancement",
+                "description": "Introduced bulk upload options and management tools for media files."
+              }
+            ]
+          },
+          {
+            "title": "Advanced Editor Features",
+            "subType": "Feature",
+            "description": "Enhancing the editor with advanced features.",
+            "children": [
+              {
+                "title": "Corrected issues with table formatting.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs affecting the formatting of tables in the editor."
+              },
+              {
+                "title": "Resolved bugs with code snippet embedding.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues encountered when embedding code snippets."
+              },
+              {
+                "title": "Added support for custom HTML and CSS.",
+                "subType": "Enhancement",
+                "description": "Introduced support for adding custom HTML and CSS in posts."
+              },
+              {
+                "title": "Improved markdown support.",
+                "subType": "Enhancement",
+                "description": "Enhanced markdown support for better formatting options."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-04-01T00:00:00Z",
+        "endDate": "2025-04-02T00:00:00Z",
+        "style": "orange",
+        "source": "Internal",
+        "product": "BlogMaster (Web Application)",
+        "description": "Major update with multi-user collaboration and mobile optimization.",
+        "children": [
+          {
+            "title": "Multi-User Collaboration",
+            "subType": "Feature",
+            "description": "Introducing collaboration features for multiple users.",
+            "children": [
+              {
+                "title": "Resolved issues with simultaneous editing.",
+                "subType": "Bug Fix",
+                "description": "Fixed bugs affecting simultaneous editing by multiple users."
+              },
+              {
+                "title": "Fixed bugs with user role assignments.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with assigning roles to different users."
+              },
+              {
+                "title": "Added real-time collaborative editing.",
+                "subType": "Enhancement",
+                "description": "Introduced real-time editing features for better collaboration."
+              },
+              {
+                "title": "Introduced advanced user permissions and roles.",
+                "subType": "Enhancement",
+                "description": "Added advanced options for managing user permissions and roles."
+              }
+            ]
+          },
+          {
+            "title": "Mobile Optimization",
+            "subType": "Feature",
+            "description": "Enhancing mobile responsiveness and design options.",
+            "children": [
+              {
+                "title": "Corrected layout issues on mobile devices.",
+                "subType": "Bug Fix",
+                "description": "Fixed layout problems affecting the mobile version of the site."
+              },
+              {
+                "title": "Fixed bugs with mobile editor functionality.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues encountered when using the editor on mobile devices."
+              },
+              {
+                "title": "Improved mobile responsiveness of the entire application.",
+                "subType": "Enhancement",
+                "description": "Enhanced the mobile responsiveness of the application for better user experience."
+              },
+              {
+                "title": "Added mobile-specific design options for posts.",
+                "subType": "Enhancement",
+                "description": "Introduced design options specifically for mobile posts."
+              }
+            ]
+          },
+          {
+            "title": "Newsletter Integration",
+            "subType": "Feature",
+            "description": "Introducing integration features for newsletters.",
+            "children": [
+              {
+                "title": "Fixed issues with email template formatting.",
+                "subType": "Bug Fix",
+                "description": "Resolved formatting issues in email templates."
+              },
+              {
+                "title": "Added support for automated newsletter creation.",
+                "subType": "Enhancement",
+                "description": "Introduced automation features for creating newsletters."
+              },
+              {
+                "title": "Implemented integration with popular email marketing services.",
+                "subType": "Enhancement",
+                "description": "Added integration support for various email marketing platforms."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.2.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-11-01T00:00:00Z",
+        "endDate": "2025-11-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "BlogMaster (Web Application)",
+        "description": "Focus on advanced SEO features, custom widgets, and enhanced security.",
+        "children": [
+          {
+            "title": "Advanced SEO Features",
+            "subType": "Feature",
+            "description": "Enhancing SEO tools for better website optimization.",
+            "children": [
+              {
+                "title": "Corrected errors in backlink analysis.",
+                "subType": "Bug Fix",
+                "description": "Fixed errors affecting backlink analysis for SEO."
+              },
+              {
+                "title": "Added advanced keyword research tools.",
+                "subType": "Enhancement",
+                "description": "Introduced advanced tools for keyword research."
+              },
+              {
+                "title": "Implemented competitor SEO analysis.",
+                "subType": "Enhancement",
+                "description": "Added features for analyzing competitors' SEO strategies."
+              }
+            ]
+          },
+          {
+            "title": "Custom Widgets",
+            "subType": "Feature",
+            "description": "Adding customizable widgets for better post interaction.",
+            "children": [
+              {
+                "title": "Fixed bugs in widget integration.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting widget integration in posts."
+              },
+              {
+                "title": "Resolved issues with widget customization.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with customizing widgets."
+              },
+              {
+                "title": "Introduced a variety of customizable widgets for posts.",
+                "subType": "Enhancement",
+                "description": "Added new widgets that users can customize for their posts."
+              },
+              {
+                "title": "Added support for third-party widget integrations.",
+                "subType": "Enhancement",
+                "description": "Introduced support for integrating third-party widgets."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced Security",
+            "subType": "Feature",
+            "description": "Improving security features for better protection.",
+            "children": [
+              {
+                "title": "Resolved vulnerabilities in user authentication.",
+                "subType": "Bug Fix",
+                "description": "Fixed security vulnerabilities in user authentication."
+              },
+              {
+                "title": "Implemented two-factor authentication.",
+                "subType": "Enhancement",
+                "description": "Introduced two-factor authentication for enhanced security."
+              },
+              {
+                "title": "Added advanced spam protection for comments and contact forms.",
+                "subType": "Enhancement",
+                "description": "Implemented advanced spam protection features for comments and forms."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

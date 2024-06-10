@@ -1,2 +1,2 @@
-# web-development
-Web applications for AI-InnovateX. This is an example repo for demo purposes
+# This is a feature.delivery repo 
+    It contains release roadmap(s) and is managed via https://feature.delivery
